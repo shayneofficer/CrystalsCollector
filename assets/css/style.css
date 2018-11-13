@@ -1,0 +1,92 @@
+body {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url(../images/just-waves.png);
+    padding: 10px;
+}
+
+header {
+    background-color: #c86f38;
+    color: #ffffff;
+    font-size: 2em;
+    width: 260px;
+    padding: .5em 0 .5em 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    background-color: #f8e5cd;
+    color: #38a367;
+    width: 54%;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    padding-bottom: 5em;
+    padding-left: 5px;
+}
+
+section p {
+    padding-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+}
+
+#rand-num {
+    background-color: #53c987;
+    padding: 5px;
+    width: 25%;
+    margin-right: 10px;
+}
+
+#wins-losses {
+    background-color: #3afefb;
+    width: 15%;
+    text-align: center;
+    position: relative;
+    line-height: 2em;
+    padding-top: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.score {
+    background-color: #1fa397;
+    color: #fff;
+    width: 30%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.score h2 {
+    font-size: 2em;
+    padding-bottom: 3em;
+}
+
+#game-result {
+    position: absolute;
+    top: 5px;
+    left: 35%;
+}
+
+/* random number background: #53c987 */
+
+/* wins-losses background: 
+#3afefb; */
+
+/* score background: #1fa397; */
